@@ -25,7 +25,6 @@ class theTest {
 		press_and_check("6/3", "3");
 		press_and_check("6/0", "0");
 		press_and_check("6/0=", "Division By Zero Error");
-		press_and_check("%", "0");
 	}
 
 	@Test
@@ -34,6 +33,7 @@ class theTest {
 		press_and_check("03", "3");
 		press_and_check("6/3=", "2");
 		press_and_check("X", "0");
+		press_and_check("%", "0");
 	}
 	
 	@Test
