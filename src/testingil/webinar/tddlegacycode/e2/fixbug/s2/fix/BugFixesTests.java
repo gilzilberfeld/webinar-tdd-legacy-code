@@ -16,7 +16,7 @@ class BugFixesTests {
 	}
 
 	@Test
-	void when_pressing_operation_at_start_should_show_0() {
+	void when_pressing_plus_at_start_should_show_0() {
 		pressing("+").shouldShow("0");
 	}
 

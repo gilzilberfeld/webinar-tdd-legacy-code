@@ -1,4 +1,4 @@
-package testingil.webinar.tddlegacycode.e2.fixbug.s3.betterfix;
+package testingil.webinar.tddlegacycode.e2.fixbug.s4.refactor;
 
 import static org.junit.jupiter.api.Assertions.*;
 
