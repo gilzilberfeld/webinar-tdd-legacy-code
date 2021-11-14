@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace TDDLegacyCode.E1.AddTests
+namespace TDDLegacyCode.E2.FixBug.S1.Test
 {
     [TestClass]
-    public class CharacterizationTests2
+    public class CharacterizationTests
     {
         private Calculator calc;
         private string result;
@@ -31,23 +31,7 @@ namespace TDDLegacyCode.E1.AddTests
             Pressing("6/0=").ShouldShow("Division By Zero Error");
         }
 
-        [TestMethod]
-        public void Failures()
-        {
-            Pressing("+").ShouldShow("0");
-            Pressing("03").ShouldShow("3");
-            Pressing("6/3=").ShouldShow("2");
-            Pressing("X").ShouldShow("0");
-            Pressing("%").ShouldShow("0");
-        }
-
-        [TestMethod]
-        public void Works_but_should_it()
-        {
-            Pressing("3++").ShouldShow("3");
-        }
-
-        private CharacterizationTests2 Pressing(string keys)
+        private CharacterizationTests Pressing(string keys)
         {
             calc.Press("C");
             foreach (char c in keys)
@@ -58,7 +42,7 @@ namespace TDDLegacyCode.E1.AddTests
             return this;
         }
 
-        private CharacterizationTests2 AtStart()
+        private CharacterizationTests AtStart()
         {
             this.result = calc.GetDisplay();
             return this;
