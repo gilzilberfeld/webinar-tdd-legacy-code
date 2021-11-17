@@ -46,9 +46,13 @@
       <SubType>Code</SubType>
       <TestFramework>ExportRunner</TestFramework>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="E1.AddTests\Calculator.ts" />
+    <TypeScriptCompile Include="E1.AddTests\CharacterizationTests2.ts" />
+    <TypeScriptCompile Include="E1.AddTests\CharacterizationTests1.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="E0.Start\" />
+    <Folder Include="E1.AddTests\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
