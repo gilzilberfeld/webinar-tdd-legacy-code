@@ -13,11 +13,8 @@ describe('bug fix tests', function () {
     });
 });
 function pressing_should_show(keys, expected) {
-    console.log("keys sent: " + keys);
     calc.press("C");
-    console.log("display after reset: " + calc.getDisplay());
     [...keys].forEach(c => calc.press(c));
-    console.log("display after press: " + calc.getDisplay());
     result = calc.getDisplay();
     assert.equal(result, expected);
 }

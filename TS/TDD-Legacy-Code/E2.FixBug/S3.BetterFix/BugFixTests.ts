@@ -10,9 +10,15 @@ describe('bug fix tests', function () {
         calc = new Calculator();
     });
 
-    it('when pressing operation at start should show 0', function () {
+    it('when pressing plus at start should show 0', function () {
         pressing_should_show("+", "0");
+    });
+    it('when pressing div at start should show 0', function () {
+        pressing_should_show("/", "0");
     })
+    it('when pressing equal at start should show 0', function () {
+        pressing_should_show("=", "0");
+    });
 });
 
 function pressing_should_show(keys: string, expected: string) {
