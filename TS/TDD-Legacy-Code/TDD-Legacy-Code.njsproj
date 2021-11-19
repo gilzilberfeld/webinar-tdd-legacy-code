@@ -76,6 +76,10 @@
     <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S1.Guard\Calculator.ts" />
     <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S1.Guard\CalculatorStartTests.ts" />
     <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S1.Guard\CharacterizationTests.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S2.OpSwitch\CalcTestUtils.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S2.OpSwitch\Calculator.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S2.OpSwitch\CalculatorStartTests.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S1.Refactor\S2.OpSwitch\CharacterizationTests.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="E0.Start\" />
@@ -88,6 +92,7 @@
     <Folder Include="E2.FixBug\S1.Test\" />
     <Folder Include="E3.AddFuntionality\" />
     <Folder Include="E3.AddFuntionality\S1.Refactor\" />
+    <Folder Include="E3.AddFuntionality\S1.Refactor\S2.OpSwitch\" />
     <Folder Include="E3.AddFuntionality\S1.Refactor\S1.Guard\" />
     <Folder Include="E3.AddFuntionality\S1.Refactor\S0\" />
   </ItemGroup>
