@@ -64,11 +64,16 @@
     <TypeScriptCompile Include="E2.FixBug\S4.Refactor\BugFixTests.ts" />
     <TypeScriptCompile Include="E2.FixBug\S4.Refactor\Calculator.ts" />
     <TypeScriptCompile Include="E2.FixBug\S4.Refactor\CharacterizationTests.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S5.RefactorTests\CalcTestUtils.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S5.RefactorTests\CalculatorStartTests.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S5.RefactorTests\Calculator.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S5.RefactorTests\CharacterizationTests.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="E0.Start\" />
     <Folder Include="E1.AddTests\" />
     <Folder Include="E2.FixBug\" />
+    <Folder Include="E2.FixBug\S5.RefactorTests\" />
     <Folder Include="E2.FixBug\S4.Refactor\" />
     <Folder Include="E2.FixBug\S3.BetterFix\" />
     <Folder Include="E2.FixBug\S2.Fix\" />
