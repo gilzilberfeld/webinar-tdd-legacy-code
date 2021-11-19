@@ -20,12 +20,16 @@ var e0;
                 if (key == "+") {
                     this.lastOperation = OperationType.Plus;
                     this.lastArgument = Number(this.display);
+                    if (isNaN(this.lastArgument))
+                        throw new Error("error");
                     this.newArgument = true;
                 }
                 else {
                     if (key == "/") {
                         this.lastOperation = OperationType.Div;
                         this.lastArgument = Number(this.display);
+                        if (isNaN(this.lastArgument))
+                            throw new Error("error");
                         this.newArgument = true;
                     }
                     else if (key == "=") {

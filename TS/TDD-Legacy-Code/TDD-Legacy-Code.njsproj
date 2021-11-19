@@ -49,10 +49,18 @@
     <TypeScriptCompile Include="E1.AddTests\Calculator.ts" />
     <TypeScriptCompile Include="E1.AddTests\CharacterizationTests2.ts" />
     <TypeScriptCompile Include="E1.AddTests\CharacterizationTests1.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S1.Test\Calculator.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S1.Test\CharacterizationTests.ts" />
+    <TypeScriptCompile Include="E2.FixBug\S1.Test\BugFixTests.ts">
+      <SubType>Code</SubType>
+      <TestFramework>ExportRunner</TestFramework>
+    </TypeScriptCompile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="E0.Start\" />
     <Folder Include="E1.AddTests\" />
+    <Folder Include="E2.FixBug\" />
+    <Folder Include="E2.FixBug\S1.Test\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>

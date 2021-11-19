@@ -19,7 +19,7 @@ export class Calculator {
         else {
             if (key == "+") {
                 this.lastOperation = OperationType.Plus;
-                this.lastArgument = Number(this.display);
+                this.lastArgument = parseInt(this.display);
                 if (isNaN(this.lastArgument))
                     throw new Error("error");
                 this.newArgument = true;
@@ -27,13 +27,13 @@ export class Calculator {
             else {
                 if (key == "/") {
                     this.lastOperation = OperationType.Div;
-                    this.lastArgument = Number(this.display);
+                    this.lastArgument = parseInt(this.display);
                     if (isNaN(this.lastArgument))
                         throw new Error("error");
                     this.newArgument = true;
                 }
                 else if (key == "=") {
-                    let currentArgument = Number(this.display);
+                    let currentArgument = parseInt(this.display);
                     if (this.lastOperation == OperationType.Plus) {
                         this.display = (this.lastArgument + currentArgument).toString();
                     }
