@@ -89,6 +89,11 @@
     <TypeScriptCompile Include="E3.AddFuntionality\S2.AddTest\CalculatorTests.ts" />
     <TypeScriptCompile Include="E3.AddFuntionality\S2.AddTest\CalculatorStartTests.ts" />
     <TypeScriptCompile Include="E3.AddFuntionality\S2.AddTest\CharacterizationTests.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S3.Code\CalcTestUtils.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S3.Code\Calculator.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S3.Code\CalculatorStartTests.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S3.Code\CalculatorTests.ts" />
+    <TypeScriptCompile Include="E3.AddFuntionality\S3.Code\CharacterizationTests.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="E0.Start\" />
@@ -100,6 +105,7 @@
     <Folder Include="E2.FixBug\S2.Fix\" />
     <Folder Include="E2.FixBug\S1.Test\" />
     <Folder Include="E3.AddFuntionality\" />
+    <Folder Include="E3.AddFuntionality\S3.Code\" />
     <Folder Include="E3.AddFuntionality\S2.AddTest\" />
     <Folder Include="E3.AddFuntionality\S1.Refactor\" />
     <Folder Include="E3.AddFuntionality\S1.Refactor\S3.OpExtract\" />
