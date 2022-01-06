@@ -1,5 +1,6 @@
 from enum import Enum
 
+
 class OperationType(Enum):
     Plus = 1
     Div = 2
@@ -11,8 +12,7 @@ class Calculator:
     result = 0
     newArgument = False
     shouldReset = True
-
-    lastOperation: OperationType
+    lastOperation = OperationType.Plus
 
     def press(self, key):
         if key == "C":
