@@ -16,10 +16,10 @@ public class Calculator {
 		}
 		switch (key) {
 		case "+":
-			handleOpKey(OperationType.Plus);
+			handleOp(OperationType.Plus);
 			break;
 		case "/":
-			handleOpKey(OperationType.Div);
+			handleOp(OperationType.Div);
 			break;
 		case "=":
 			int currentArgument = parseKeyNumber();
@@ -45,7 +45,7 @@ public class Calculator {
 		}
 	}
 
-	private void handleOpKey(OperationType operationType) {
+	private void handleOp(OperationType operationType) {
 		lastOperation = operationType;
 		lastArgument = parseKeyNumber();
 		newArgument = true;
