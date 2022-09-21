@@ -1,4 +1,4 @@
-package testingil.webinar.tddlegacycode.e3.addfunctionality.s3.code;
+package testingil.webinar.tddlegacycode.e3.addfunctionality.s1.refactor.s3.opextract;
 
 public class Calculator {
 	String display = "";
@@ -16,13 +16,10 @@ public class Calculator {
 		}
 		switch (key) {
 		case "+":
-			handleOpKey(OperationType.Plus);
+			handleOp(OperationType.Plus);
 			break;
 		case "/":
-			handleOpKey(OperationType.Div);
-			break;
-		case "-":
-			handleOpKey(OperationType.Min);
+			handleOp(OperationType.Div);
 			break;
 		case "=":
 			int currentArgument = parseKeyNumber();
@@ -48,7 +45,7 @@ public class Calculator {
 		}
 	}
 
-	private void handleOpKey(OperationType operationType) {
+	private void handleOp(OperationType operationType) {
 		lastOperation = operationType;
 		lastArgument = parseKeyNumber();
 		newArgument = true;
